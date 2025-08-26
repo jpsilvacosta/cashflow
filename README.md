@@ -48,8 +48,18 @@ Além disso, conta com **Swagger** para documentação interativa e exploração
 
 ---
 
-### 🚀 Como Executar o Projeto
+## 🚀 Getting Started  
 
-1. Clone este repositório:
+Para obter uma cópia local funcionando, siga estes passos simples.  
+
+### Requisitos  
+* Visual Studio versão 2022+ ou Visual Studio Code  
+* Windows 10+ ou Linux/MacOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) instalado  
+* MySQL Server  
+
+### Instalação  
+1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/welissonArley/CashFlow.git
+2. Preencha as informações no arquivo `appsettings.Development.json`.
+3. Execute a API e aproveite o seu teste :)
