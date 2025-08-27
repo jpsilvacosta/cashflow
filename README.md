@@ -17,6 +17,8 @@ Os dados são armazenados de forma segura em um **banco de dados MySQL**.
 A arquitetura segue o padrão **REST**, utilizando métodos **HTTP** para comunicação simples e eficiente.  
 Além disso, conta com **Swagger** para documentação interativa e exploração dos endpoints.
 
+![my-image]
+
 ---
 
 ### ⚙️ Tecnologias Utilizadas
@@ -25,7 +27,7 @@ Além disso, conta com **Swagger** para documentação interativa e exploração
 - **MySQL**
 - **Entity Framework Core**
 - **Swagger**
-
+a
 ---
 
 ### 📦 Principais Pacotes NuGet
@@ -70,4 +72,4 @@ Para obter uma cópia local funcionando, siga estes passos simples.
 [dot-net-sdk]: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 <!--Images-->
-[]
+[my-image]: image/myimage.jpeg
