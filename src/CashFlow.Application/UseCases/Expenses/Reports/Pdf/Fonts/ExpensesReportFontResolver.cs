@@ -27,9 +27,9 @@ public class ExpensesReportFontResolver : IFontResolver
 
     private Stream? ReadFontFile(string faceName)
     {
-        var assembbly = Assembly.GetExecutingAssembly();
+        var assembly = Assembly.GetExecutingAssembly();
 
-        return assembbly.GetManifestResourceStream($"CashFlow.Application." +
+        return assembly.GetManifestResourceStream($"CashFlow.Application." +
             $"UseCases.Expenses.Reports.Pdf.Fonts.{faceName}.ttf");
     }
 }

@@ -13,7 +13,7 @@ namespace Validators.Tests.Expenses.Register
         {
             //Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
 
             //Act
             var result = validator.Validate(request);
@@ -30,7 +30,7 @@ namespace Validators.Tests.Expenses.Register
         {
             // Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             request.Title = title; //Forçando o title a estar vazio
        
 
@@ -48,7 +48,7 @@ namespace Validators.Tests.Expenses.Register
         {
             // Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             request.Date = DateTime.UtcNow.AddDays(1); //Forçando a data a ser no futuro
 
 
@@ -66,7 +66,7 @@ namespace Validators.Tests.Expenses.Register
         {
             // Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             request.PaymentType = (PaymentType)700; //Forçando o PaymentType a ser inválido (não é um enum válido)
 
 
@@ -86,7 +86,7 @@ namespace Validators.Tests.Expenses.Register
         {
             // Arrange
             var validator = new ExpenseValidator();
-            var request = RequestRegisterExpenseJsonBuilder.Build();
+            var request = RequestExpenseJsonBuilder.Build();
             request.Amount = amount; //Forçando o Amount a ser zero (inválido)
 
 
