@@ -2,7 +2,7 @@
 using CashFlow.Exception;
 using CommonTestUtilities.Requests;
 using FluentAssertions;
-using Validators.Tests.Expenses.Register;
+using Validators.Tests.Expenses;
 
 namespace Validators.Tests.Users.Register
 {
