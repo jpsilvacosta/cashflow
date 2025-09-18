@@ -11,6 +11,7 @@ Os usuários podem registrar informações detalhadas de suas despesas, como:
 - **Descrição**
 - **Valor**
 - **Tipo de Pagamento**
+- **Tags**
 
 Os dados são armazenados de forma segura em um **banco de dados MySQL**.
 
@@ -39,13 +40,19 @@ a
 
 ### ✨ Features
 
-✔️ **Domain-Driven Design (DDD):** Estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação.  
+🧩 Domain-Driven Design (DDD): Estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação.
 
-🧪 **Testes de Unidade:** Implementados com **FluentAssertions** para garantir funcionalidade e qualidade do código.  
+📊 Tratamento de Erros: Implementação de ErrorHandlingMiddleware para capturar e retornar erros estruturados em JSON.
 
-📊 **Geração de Relatórios:** Exportação detalhada para **PDF e Excel**, oferecendo análise visual e eficaz das despesas.  
+🗄️ Migrations com EF Core: Controle de versão do banco de dados com atualizações automáticas via migrations.
 
-🌐 **RESTful API com Documentação Swagger:** Interface documentada que facilita a integração e o teste pelos desenvolvedores.  
+🔐 Autenticação JWT: Proteção de endpoints sensíveis com geração e validação de tokens JWT.
+
+🧪 Testes de Unidade: Cobertura das principais regras de negócio para garantir confiabilidade.
+
+🔗 Testes de Integração: Validação ponta a ponta dos endpoints, simulando cenários reais de uso da API.
+
+📑 Swagger Documentado: Integração com Swagger para documentação clara e testável dos endpoints da aplicação.
 
 
 ---
